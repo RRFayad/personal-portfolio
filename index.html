@@ -2,41 +2,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./src/output.css" />
   </head>
 
   <body class="">
-    <nav class="bg-red-200 flex justify-between">
-      <div>Logo</div>
-      <ul class="flex">
-        <li>About me</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact me</li>
+    <nav class="bg-[#111827] flex justify-between items-center h-16 px-8">
+      <div class="visible my-auto ml-2 sm:hidden">
+        <div class="mb-[6px] h-[2px] w-6 bg-white"></div>
+        <div class="mb-[6px] h-[2px] w-5 bg-white"></div>
+        <div class="h-[2px] w-6 bg-white"></div>
+      </div>
+      <h1 class="text-white text-center text-xl font-bold w-[100%]">RRFAYAD</h1>
+      <ul class="space-x-8 hidden lg:flex">
+        <li class="text-white font-bold text-lg">About me</li>
+        <li class="text-white font-bold text-lg">Skills</li>
+        <li class="text-white font-bold text-lg">Projects</li>
+        <li class="text-white font-bold text-lg">Contact Me</li>
       </ul>
     </nav>
     <!--  FIRST SECTION -->
-    <div class="flex">
-      <div class="bg-yellow-200">
-        <h1>Hi, I'm Renan!</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro
-          obcaecati cum facere laborum aspernatur dolorem similique quaerat ex
-          ipsa harum. Non dolorum eligendi incidunt repellat quaerat minus saepe
-          molestias quas.
+    <section class="flex flex-col-reverse">
+      <div class="p-2">
+        <h1 class="text-center font-bold text-2xl">Hi, I'm Renan!</h1>
+        <br />
+        <p class="text-justify">
+          A passionate Full Stack Web Developer based in São Paulo, Brazil.📍
         </p>
-        <button class="bg-blue-300">About Me</button>
-        <button class="bg-blue-300">Hire Me</button>
+        <br />
+        <p class="text-justify">
+          After some years as a Senior Tech Consultant Manager I decided to
+          teach my self how to code, and now I create end-to-end software
+          solutions, including mobile applications.
+        </p>
+        <br />
+        <button
+          class="bg-[#2196f3] w-36 h-8 text-white font-bold rounded-md mx-auto block"
+        >
+          Contact Me
+        </button>
       </div>
-      <div>
-        <img src="https://www.thispersondoesnotexist.com/" alt="Ihaa" />
+      <div class="w-40 h-40 m-auto overflow-hidden rounded-full relative my-4">
+        <img
+          src="assets/Profile__Pic__LI.jpeg"
+          alt=""
+          class="h-56 m-auto object-cover object-top"
+        />
       </div>
-    </div>
+    </section>
     <!-- ABOUT ME SECTION -->
-    <div class="bg-blue-800">
+    <section class="bg-blue-800">
       <h1 class="text-center">About me</h1>
       <div class="flex">
         <img
@@ -55,38 +69,96 @@
           laudantium iusto voluptatem?
         </p>
       </div>
-    </div>
+    </section>
     <!-- My Skills Section -->
-    <div class="flex">
-      <div>
-        <h1>FRONT END</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          nihil dolore at sint illum similique perspiciatis, dolorum saepe
-          voluptate cumque, rem a ea dolorem. A atque velit consequuntur ipsa
-          voluptatem?
-        </p>
+    <section>
+      <h1 class="text-center">My Skills</h1>
+      <div class="flex">
+        <div>
+          <h1>FRONT END</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            nihil dolore at sint illum similique perspiciatis, dolorum saepe
+            voluptate cumque, rem a ea dolorem. A atque velit consequuntur ipsa
+            voluptatem?
+          </p>
+        </div>
+        <div>
+          <h1>BACK END</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            nihil dolore at sint illum similique perspiciatis, dolorum saepe
+            voluptate cumque, rem a ea dolorem. A atque velit consequuntur ipsa
+            voluptatem?
+          </p>
+        </div>
+        <div>
+          <h1>TOOLS</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            nihil dolore at sint illum similique perspiciatis, dolorum saepe
+            voluptate cumque, rem a ea dolorem. A atque velit consequuntur ipsa
+            voluptatem?
+          </p>
+        </div>
       </div>
-      <div>
-        <h1>BACK END</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          nihil dolore at sint illum similique perspiciatis, dolorum saepe
-          voluptate cumque, rem a ea dolorem. A atque velit consequuntur ipsa
-          voluptatem?
-        </p>
+    </section>
+    <!-- Projects Section -->
+    <section>
+      <h1 class="text-center">My Projects</h1>
+      <div class="flex">
+        <div>
+          <img
+            src="https://webflare-api-d1393b1f3c07.herokuapp.com/images/businesses/Travel-Blog__1697207680051.jpeg"
+            alt=""
+          />
+          <h1>Webflare</h1>
+          <h2>Digital Assets Marketplace</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            sequi sit rem! Eaque nihil doloribus dolorum nemo autem molestiae,
+            deleniti tenetur dolore perspiciatis officiis recusandae molestias
+            dolorem quidem aliquam repudiandae.
+          </p>
+          <h2>Technologies</h2>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quasi
+            soluta tenetur officiis veniam eos, corrupti nobis itaque
+            praesentium hic aliquid nam similique. Ratione, totam recusandae
+            mollitia ea exercitationem voluptatem.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://webflare-api-d1393b1f3c07.herokuapp.com/images/businesses/Travel-Blog__1697207680051.jpeg"
+            alt=""
+          />
+          <h1>Webflare</h1>
+          <h2>Digital Assets Marketplace</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            sequi sit rem! Eaque nihil doloribus dolorum nemo autem molestiae,
+            deleniti tenetur dolore perspiciatis officiis recusandae molestias
+            dolorem quidem aliquam repudiandae.
+          </p>
+          <h2>Technologies</h2>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quasi
+            soluta tenetur officiis veniam eos, corrupti nobis itaque
+            praesentium hic aliquid nam similique. Ratione, totam recusandae
+            mollitia ea exercitationem voluptatem.
+          </p>
+        </div>
       </div>
-      <div>
-        <h1>TOOLS</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          nihil dolore at sint illum similique perspiciatis, dolorum saepe
-          voluptate cumque, rem a ea dolorem. A atque velit consequuntur ipsa
-          voluptatem?
-        </p>
-      </div>
-    </div>
+    </section>
+    <!-- Contact Me Section -->
+    <section>
+      <h1 class="text-center">Contact Me</h1>
+    </section>
+    <footer>ihaa</footer>
   </body>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script></script>
+  <script src="/script.js"></script>
 </html>
