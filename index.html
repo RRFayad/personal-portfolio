@@ -6,8 +6,10 @@
   </head>
 
   <body class="">
-    <nav class="bg-[#111827] flex justify-between items-center h-16 px-8">
-      <div class="visible my-auto ml-2 sm:hidden">
+    <nav
+      class="bg-[#111827] flex justify-between items-center h-16 px-8 relative"
+    >
+      <div class="visible my-auto sm:hidden absolute">
         <div class="mb-[6px] h-[2px] w-6 bg-white"></div>
         <div class="mb-[6px] h-[2px] w-5 bg-white"></div>
         <div class="h-[2px] w-6 bg-white"></div>
@@ -36,7 +38,7 @@
         </p>
         <br />
         <button
-          class="bg-[#2196f3] w-36 h-8 text-white font-bold rounded-md mx-auto block"
+          class="bg-[#2196f3] w-40 h-12 text-white font-bold rounded-lg mx-auto mt-4 mb-2 shadow-lg block"
         >
           Contact Me
         </button>
@@ -49,34 +51,40 @@
         />
       </div>
     </section>
+    <hr class="my-6" />
     <!-- ABOUT ME SECTION -->
-    <section class="bg-blue-800">
-      <h1 class="text-center">About me</h1>
-      <div class="flex">
-        <img
-          src="https://dm0fehhuxv6f6.cloudfront.net/wp-content/uploads/2023/04/30035515/bing-panda-600x600.jpg"
-          alt=""
-          class="h-900"
-        />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate
-          illum quidem perferendis aspernatur amet, sapiente adipisci inventore
-          tenetur quos labore! Molestias accusamus voluptatum optio excepturi
-          sint laboriosam laudantium iusto voluptatem?<br /><br />Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Voluptate illum quidem
-          perferendis aspernatur amet, sapiente adipisci inventore tenetur quos
-          labore! Molestias accusamus voluptatum optio excepturi sint laboriosam
-          laudantium iusto voluptatem?
+    <section class="px-4">
+      <h1 class="text-center font-bold text-2xl mb-6">About me</h1>
+      <img
+        src="./assets/about-img.62b47e7f183d4b4e9feb.webp"
+        alt=""
+        class="mb-4"
+      />
+      <div class="">
+        <p class="text-justify">
+          After a successful career as a Senior Manager in a Technology and
+          Innovation Consultancy, I started teaching myself how to code.
+        </p>
+        <br />
+        <p class="text-justify">
+          What started as a hobby, quickly became something I was truly
+          passionate about and I decided to pursue a career change.
         </p>
       </div>
+      <button
+        class="bg-[#2196f3] w-40 h-12 text-white font-bold rounded-lg mx-auto my-6 shadow-lg block"
+      >
+        Check out my CV!
+      </button>
+      <hr class="my-6" />
     </section>
     <!-- My Skills Section -->
-    <section>
-      <h1 class="text-center">My Skills</h1>
-      <div class="flex">
+    <section class="px-4">
+      <h1 class="text-center font-bold text-2xl mb-6">My Skills</h1>
+      <div class="">
         <div>
-          <h1>FRONT END</h1>
-          <p>
+          <h2 class="text-center font-bold text-md mb-4">FRONT END</h2>
+          <p class="text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
             nihil dolore at sint illum similique perspiciatis, dolorum saepe
             voluptate cumque, rem a ea dolorem. A atque velit consequuntur ipsa
@@ -84,8 +92,8 @@
           </p>
         </div>
         <div>
-          <h1>BACK END</h1>
-          <p>
+          <h2 class="text-center font-bold text-md mb-4 mt-6">BACK END</h2>
+          <p class="text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
             nihil dolore at sint illum similique perspiciatis, dolorum saepe
             voluptate cumque, rem a ea dolorem. A atque velit consequuntur ipsa
@@ -93,8 +101,8 @@
           </p>
         </div>
         <div>
-          <h1>TOOLS</h1>
-          <p>
+          <h2 class="text-center font-bold text-md mb-4 mt-6">TOOLS</h2>
+          <p class="text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
             nihil dolore at sint illum similique perspiciatis, dolorum saepe
             voluptate cumque, rem a ea dolorem. A atque velit consequuntur ipsa
