@@ -23,16 +23,17 @@
         <li class="text-white font-bold text-lg">Contact Me</li>
       </ul>
     </nav>
-    <!--  FIRST SECTION -->
+    <!--  INTRO SECTION -->
     <section class="flex flex-col-reverse">
       <div class="p-2">
         <h1 class="text-center font-bold text-2xl">
-          👋Hi, I'm Renan! <br />
-          A Full-Stack Developer!
+          👋 Hi, I'm Renan! <br />
+          I am a Full-Stack Developer!
         </h1>
         <br />
         <p class="text-justify">
-          A passionate Full Stack Web Developer based in São Paulo, Brazil.📍
+          A passionate Full Stack Web Developer currently based in São Paulo,
+          Brazil.📍
         </p>
         <br />
         <p class="text-justify">
@@ -40,9 +41,8 @@
           teach my self how to code, and now I create end-to-end software
           solutions, including mobile applications.
         </p>
-        <br />
         <button
-          class="bg-[#2196f3] w-40 h-12 text-white font-bold rounded-lg mx-auto mt-4 mb-2 shadow-lg block active:opacity-80"
+          class="bg-[#2196f3] w-40 h-12 text-white font-bold rounded-lg mx-auto mt-4 shadow-lg block active:opacity-80"
         >
           Contact Me
         </button>
@@ -155,24 +155,24 @@
             <li>
               <figure class="w-fit">
                 <img
-                  src="./assets/techs/frontend/react-svgrepo-com.svg"
-                  alt="HTML"
-                  class="mx-auto w-10"
-                />
-                <figcaption class="text-center text-sm font-bold">
-                  React Native
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure class="w-fit">
-                <img
                   src="./assets/techs/frontend/redux-svgrepo-com.svg"
                   alt="HTML"
                   class="mx-auto w-10"
                 />
                 <figcaption class="text-center text-sm font-bold">
                   Redux
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="w-fit">
+                <img
+                  src="./assets/techs/frontend/react-svgrepo-com.svg"
+                  alt="HTML"
+                  class="mx-auto w-10"
+                />
+                <figcaption class="text-center text-sm font-bold">
+                  React Native
                 </figcaption>
               </figure>
             </li>
@@ -343,52 +343,252 @@
     </section>
     <!-- Projects Section -->
     <section class="px-4">
-      <h1 class="text-center font-bold text-2xl mb-6">My Projects</h1>
-      <div class="flex">
-        <div>
-          <img
-            src="https://webflare-api-d1393b1f3c07.herokuapp.com/images/businesses/Travel-Blog__1697207680051.jpeg"
-            alt=""
-          />
-          <h1>Webflare</h1>
-          <h2>Digital Assets Marketplace</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            sequi sit rem! Eaque nihil doloribus dolorum nemo autem molestiae,
-            deleniti tenetur dolore perspiciatis officiis recusandae molestias
-            dolorem quidem aliquam repudiandae.
-          </p>
-          <h2>Technologies</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quasi
-            soluta tenetur officiis veniam eos, corrupti nobis itaque
-            praesentium hic aliquid nam similique. Ratione, totam recusandae
-            mollitia ea exercitationem voluptatem.
-          </p>
+      <h1 class="text-center font-bold text-2xl mb-6">My Latest Projects</h1>
+      <!-- Project Card #1 -->
+
+      <div
+        class="w-[95%] mx-auto border-gray-400 border-2 border-opacity-60 p-2 shadow-md pb-8"
+      >
+        <img src="assets/Webflare.jpg" alt="" />
+        <h2 class="text-center font-bold text-xl mt-6">Webflare</h2>
+        <h3 class="text-center font-bold text-lg mt-2">
+          Digital Assets Marketplace
+        </h3>
+        <br />
+        <p class="text-justify">
+          Webflare is the #1 Marketplace to Buy & Sell Online businesses, such
+          as Apps, SaaS, Blogs, E-Commerces, Social Media Profiles, etc.
+        </p>
+
+        <h4 class="text-center font-bold mb-1 mt-4">Demo Login</h4>
+        <div class="flex justify-between">
+          <p class=""><b> E-mail: </b>test1@gmail.com</p>
+          <button
+            class="rounded-md h-7 w-7 bg-[#2196f3] opacity-80 font-bold text-white p-2 active:opacity-60"
+            id="email-btn"
+            onclick="copyItemToClipboard('test1@gmail.com')"
+          >
+            <img
+              src="assets/copy-to-clipboard-svgrepo-com.svg"
+              alt=""
+              class="h-full"
+            />
+          </button>
         </div>
-        <div>
-          <img
-            src="https://webflare-api-d1393b1f3c07.herokuapp.com/images/businesses/Travel-Blog__1697207680051.jpeg"
-            alt=""
-          />
-          <h1>Webflare</h1>
-          <h2>Digital Assets Marketplace</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            sequi sit rem! Eaque nihil doloribus dolorum nemo autem molestiae,
-            deleniti tenetur dolore perspiciatis officiis recusandae molestias
-            dolorem quidem aliquam repudiandae.
-          </p>
-          <h2>Technologies</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quasi
-            soluta tenetur officiis veniam eos, corrupti nobis itaque
-            praesentium hic aliquid nam similique. Ratione, totam recusandae
-            mollitia ea exercitationem voluptatem.
-          </p>
+        <div class="flex justify-between mt-2">
+          <p class=""><b>Password: </b>QPwo!)29</p>
+          <button
+            class="rounded-md h-7 w-7 bg-[#2196f3] opacity-80 font-bold text-white p-2 active:opacity-60"
+            id="email-btn"
+            onclick="copyItemToClipboard('QPwo!)29')"
+          >
+            <img
+              src="assets/copy-to-clipboard-svgrepo-com.svg"
+              alt=""
+              class="h-full"
+            />
+          </button>
         </div>
+        <button
+          class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto shadow-lg block active:opacity-80 mt-6"
+        >
+          <a href="https://webflare.vercel.app/" target="_blank">
+            Check it Out
+          </a>
+        </button>
+
+        <hr class="my-4" />
+        <h2 class="text-center font-bold text-xl">Technologies</h2>
+
+        <ul
+          class="mt-4 grid grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-6 lg:flex lg:justify-around"
+        >
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/frontend/html-5-svgrepo-com.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                HTML
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/frontend/css-3-svgrepo-com.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">CSS</figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/frontend/javascript-svgrepo-com.svg"
+                alt="HTML"
+                class="mx-auto w-10 h-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                JavaScript
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/frontend/react-svgrepo-com.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                React
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/backend/node-js-svgrepo-com.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                Node
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/backend/express.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                Express
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/backend/mongodb-svgrepo-com.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                Mongo DB
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/backend/Mongoose.js.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                Mongoose
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/tools/Git.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">Git</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/tools/GitHub.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                GitHub
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/tools/Figma.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                Figma
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/tools/Heroku.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                Heroku
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="w-fit">
+              <img
+                src="./assets/techs/tools/Vercel.svg"
+                alt="HTML"
+                class="mx-auto w-10"
+              />
+              <figcaption class="text-center text-sm font-bold">
+                Vercel
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+        <hr class="my-4" />
+        <h2 class="text-center font-bold text-xl">Repositories</h2>
+        <ul>
+          <li class="mt-6">
+            <a
+              href="https://github.com/RRFayad/Personal-Project__WebFlare--FrontEnd"
+              target="_blank"
+              class="font-bold text-lg mx-auto flex items-center w-full"
+            >
+              <img
+                src="./assets/techs/tools/GitHub.svg"
+                alt="HTML"
+                class="w-10 ml-10 absolute"
+              />
+              <span class="mx-auto"> Front End Project </span>
+            </a>
+          </li>
+          <li class="mt-6">
+            <a
+              href="https://github.com/RRFayad/Personal-Project__WebFlare--BackEnd"
+              target="_blank"
+              class="font-bold text-lg mx-auto flex items-center w-full"
+            >
+              <img
+                src="./assets/techs/tools/GitHub.svg"
+                alt="HTML"
+                class="w-10 ml-10 absolute"
+              />
+              <span class="mx-auto"> Back End Project </span>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
     <!-- Contact Me Section -->
