@@ -8,15 +8,17 @@
   <body class="">
     <!-- Nav Bar -->
     <nav
-      class="bg-[#111827] flex justify-between items-center h-16 px-8 relative mb-4"
+      class="bg-[#111827] flex justify-between items-center h-16 px-8 relative mb-4 lg:px-24"
     >
       <div class="visible my-auto lg:hidden absolute">
         <div class="mb-[6px] h-[2px] w-6 bg-white"></div>
         <div class="mb-[6px] h-[2px] w-5 bg-white"></div>
         <div class="h-[2px] w-6 bg-white"></div>
       </div>
-      <h1 class="text-white text-center text-xl font-bold w-[100%] lg:w-auto">
-        RRFAYAD
+      <h1
+        class="text-white text-center text-xl font-bold w-[100%] lg:w-auto lg:text-2xl"
+      >
+        RENAN FAYAD
       </h1>
       <ul class="space-x-8 hidden lg:flex">
         <li class="text-white font-bold text-lg">About me</li>
@@ -27,13 +29,24 @@
     </nav>
     <main>
       <!--  INTRO SECTION -->
-      <section class="flex flex-col-reverse">
-        <div class="p-2">
-          <h1 class="text-center font-bold text-2xl">
+      <section
+        class="flex flex-col lg:flex-row-reverse lg:justify-around lg:items-center lg:px-20 lg:mt-12"
+      >
+        <div
+          class="w-40 h-40 m-auto lg:m-0 overflow-hidden rounded-full relative my-4 lg:h-72 lg:w-72 lg:rounded-3xl"
+        >
+          <img
+            src="assets/Profile-Pic-No-BG.png"
+            alt=""
+            class="m-auto object-cover object-top"
+          />
+        </div>
+        <div class="p-2 lg:w-[640px] lg:flex-col">
+          <h1 class="text-center font-bold text-2xl lg:text-4xl">
             👋 Hi, I'm Renan! <br />
           </h1>
           <br />
-          <p class="text-justify">
+          <p class="text-justify lg:text-lg lg:mt-4 text-gray-500">
             I'm a passionate Full Stack Web Developer, with a a strong
             understanding of both front-end and back-end development (including
             mobile), and I am excited do put my skills to in a professional
@@ -45,19 +58,10 @@
             with your project!
           </p>
           <button
-            class="bg-[#2196f3] w-40 h-12 text-white font-bold rounded-lg mx-auto mt-4 shadow-lg block active:opacity-80"
+            class="bg-[#2196f3] w-40 h-12 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-56 lg:text-lg hover:bg-[#177fd4]"
           >
             Contact Me
           </button>
-        </div>
-        <div
-          class="w-40 h-40 m-auto overflow-hidden rounded-full relative my-4"
-        >
-          <img
-            src="assets/Profile__Pic__LI.jpeg"
-            alt=""
-            class="h-56 m-auto object-cover object-top"
-          />
         </div>
       </section>
       <hr class="my-6" />
