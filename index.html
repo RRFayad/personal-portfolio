@@ -10,12 +10,14 @@
     <nav
       class="bg-[#111827] flex justify-between items-center h-16 px-8 relative mb-4"
     >
-      <div class="visible my-auto sm:hidden absolute">
+      <div class="visible my-auto lg:hidden absolute">
         <div class="mb-[6px] h-[2px] w-6 bg-white"></div>
         <div class="mb-[6px] h-[2px] w-5 bg-white"></div>
         <div class="h-[2px] w-6 bg-white"></div>
       </div>
-      <h1 class="text-white text-center text-xl font-bold w-[100%]">RRFAYAD</h1>
+      <h1 class="text-white text-center text-xl font-bold w-[100%] lg:w-auto">
+        RRFAYAD
+      </h1>
       <ul class="space-x-8 hidden lg:flex">
         <li class="text-white font-bold text-lg">About me</li>
         <li class="text-white font-bold text-lg">Skills</li>
@@ -96,7 +98,7 @@
         <h1 class="text-center font-bold text-2xl mb-6">My Skills</h1>
         <div class="">
           <!-- Front End -->
-          <div class="mt-8">
+          <div class="mt-16">
             <div>
               <img
                 src="assets//frontend icon.png"
@@ -106,7 +108,7 @@
               <h2 class="text-center font-bold text-xl mb-6 mt-2">FRONT END</h2>
             </div>
             <ul
-              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-6 lg:flex lg:justify-around"
+              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-7 lg:flex lg:justify-around"
             >
               <li>
                 <figure class="w-fit">
@@ -195,7 +197,7 @@
             </ul>
           </div>
           <!-- Back End -->
-          <div class="mt-8">
+          <div class="mt-16">
             <div>
               <img
                 src="assets/backend icon.png"
@@ -205,7 +207,7 @@
               <h2 class="text-center font-bold text-xl mb-6 mt-2">BACK END</h2>
             </div>
             <ul
-              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-6 lg:flex lg:justify-around"
+              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-7 lg:flex lg:justify-around"
             >
               <li>
                 <figure class="w-fit">
@@ -294,7 +296,7 @@
             </ul>
           </div>
           <!-- Other Tools -->
-          <div class="mt-8">
+          <div class="mt-16">
             <div>
               <img
                 src="assets/tools icon.png"
@@ -306,7 +308,7 @@
               </h2>
             </div>
             <ul
-              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-6 lg:flex lg:justify-around"
+              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-7 lg:flex lg:justify-around"
             >
               <li>
                 <figure class="w-fit">
@@ -429,6 +431,7 @@
           </button>
 
           <hr class="my-4" />
+          <!-- Technologies -->
           <h2 class="text-center font-bold text-xl">Technologies</h2>
           <ul
             class="mt-4 grid grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-6 lg:flex lg:justify-around"
@@ -594,9 +597,47 @@
           <hr class="my-4" />
           <h2 class="text-center font-bold text-xl">Repositories</h2>
           <ul>
-            <li class="mt-6">
+            <li>
               <a
                 href="https://github.com/RRFayad/Personal-Project__WebFlare--FrontEnd"
+                target="_blank"
+              >
+                <button
+                  class="w-[100%] h-14 mx-auto flex justify-start items-center shadow-sm shadow-gray-400 active:shadow-sm mt-8 font-bold text-lg"
+                >
+                  <img
+                    src="./assets/techs/tools/GitHub.svg"
+                    alt=""
+                    class="h-10 ml-6 absolute"
+                  />
+                  <div class="mx-auto">
+                    <h2 class="mx-auto">Front End Project</h2>
+                  </div>
+                </button>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/RRFayad/Personal-Project__WebFlare--BackEnd"
+                target="_blank"
+              >
+                <button
+                  class="w-[100%] h-14 mx-auto flex justify-start items-center shadow-sm shadow-gray-400 active:shadow-sm mt-2 font-bold text-lg"
+                >
+                  <img
+                    src="./assets/techs/tools/GitHub.svg"
+                    alt=""
+                    class="h-10 ml-6 absolute"
+                  />
+                  <div class="mx-auto">
+                    <h2 class="mx-auto">Back End Project</h2>
+                  </div>
+                </button>
+              </a>
+            </li>
+            <!-- <li class="mt-6">
+              <a
+                href="https://github.com/RRFayad/Personal-Project__WebFlare--BackEnd"
                 target="_blank"
                 class="font-bold text-lg mx-auto flex items-center w-full"
               >
@@ -605,7 +646,7 @@
                   alt="HTML"
                   class="w-10 ml-6 absolute"
                 />
-                <span class="mx-auto"> Front End Project </span>
+                <span class="mx-auto"> Back End Project </span>
               </a>
             </li>
             <li class="mt-6">
@@ -621,7 +662,7 @@
                 />
                 <span class="mx-auto"> Back End Project </span>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </section>
