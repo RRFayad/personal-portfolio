@@ -6,11 +6,57 @@
   </head>
 
   <body class="">
+    <!-- Backdrop and Modal Menu -->
+    <div id="modalMenu" class="hidden">
+      <div
+        class="fixed h-[100vh] w-[100vw] bg-black opacity-50 z-10"
+        onclick="toggleHamburgerMenu()"
+      ></div>
+      <div class="fixed h-[100vh] bg-white w-[300px] z-20">
+        <header class="w-full bg-[#111827] h-16 flex items-center absolute">
+          <h1
+            class="text-white text-center text-xl font-bold w-[100%] lg:w-auto lg:text-2xl"
+          >
+            RENAN FAYAD
+          </h1>
+        </header>
+        <ul class="flex space-y-4 flex-col justify-center items-center h-full">
+          <li
+            class="text-center font-bold text-lg"
+            onclick="toggleHamburgerMenu()"
+          >
+            <a href="#about-me">About me</a>
+          </li>
+          <li
+            class="text-center font-bold text-lg"
+            onclick="toggleHamburgerMenu()"
+          >
+            <a href="#skills">Skills</a>
+          </li>
+          <li
+            class="text-center font-bold text-lg"
+            onclick="toggleHamburgerMenu()"
+          >
+            <a href="#projects">Projects</a>
+          </li>
+          <li
+            class="text-center font-bold text-lg"
+            onclick="toggleHamburgerMenu()"
+          >
+            <a href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- Nav Bar -->
     <nav
       class="bg-[#111827] flex justify-between items-center h-16 px-8 relative mb-4 lg:px-24"
     >
-      <div class="visible my-auto lg:hidden absolute">
+      <!-- Hamburger Menu -->
+      <div
+        class="visible my-auto lg:hidden absolute"
+        onclick="toggleHamburgerMenu()"
+      >
         <div class="mb-[6px] h-[2px] w-6 bg-white"></div>
         <div class="mb-[6px] h-[2px] w-5 bg-white"></div>
         <div class="h-[2px] w-6 bg-white"></div>
