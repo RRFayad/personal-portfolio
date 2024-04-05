@@ -49,9 +49,9 @@
       </nav>
     </div>
     <!-- Nav Bar -->
-    <header>
+    <header class="bg-[#111827]">
       <nav
-        class="bg-[#111827] flex justify-between items-center h-16 px-8 relative mb-4 lg:px-24"
+        class="flex justify-between items-center h-16 px-8 relative mb-4 lg:px-24 lg:mx-auto"
       >
         <!-- Hamburger Menu -->
         <div
@@ -94,10 +94,10 @@
     <main>
       <!--  INTRO SECTION -->
       <section
-        class="flex flex-col px-2 lg:flex-row-reverse lg:justify-around lg:items-center lg:px-20 lg:mt-12"
+        class="flex flex-col px-2 lg:px-0 lg:flex-row-reverse lg:justify-between lg:max-w-[1000px] lg:mx-auto lg:items-center lg:mt-12"
       >
         <div
-          class="w-40 h-40 m-auto lg:m-0 overflow-hidden rounded-full relative my-4 lg:h-72 lg:w-72 lg:rounded-3xl"
+          class="w-40 h-40 m-auto lg:m-0 overflow-hidden rounded-full relative my-4 lg:h-60 lg:w-60 lg:rounded-3xl"
         >
           <img
             src="assets/personal/Profile-Pic-No-BG.png"
@@ -106,11 +106,11 @@
           />
         </div>
         <div class="p-2 lg:w-[640px] lg:flex-col">
-          <h1 class="text-center font-bold text-2xl lg:text-3xl">
+          <h1 class="text-center font-bold text-2xl">
             👋 Hi, I'm Renan! <br />
           </h1>
           <br />
-          <p class="text-justify text-gray-500 lg:mt-4 lg:text-lg">
+          <p class="text-justify text-gray-500 lg:mt-4">
             I'm a passionate Full Stack Web Developer with a strong
             understanding of both front-end and back-end development, including
             mobile. I'm excited to apply my skills in a professional setting.
@@ -123,9 +123,9 @@
             Click the button below and let me know how I can help with your
             project!
           </p>
-          <a href="#contact" class="w-full h-full">
+          <a href="#contact" class="w-36 h-10 lg:w-40 block mx-auto">
             <button
-              class="bg-[#2196f3] w-40 h-12 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-56 lg:text-lg hover:bg-[#177fd4]"
+              class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-40 hover:bg-[#177fd4]"
             >
               Contact Me
             </button>
@@ -135,11 +135,11 @@
       <hr class="my-6" />
       <!-- ABOUT ME SECTION -->
       <section class="px-4 lg:px-20 lg:mt-12" id="about-me">
-        <h1 class="text-center font-bold text-2xl mb-6 lg:text-3xl xl:mb-16">
-          About me
-        </h1>
-        <div class="lg:flex lg:justify-around lg:items-center">
-          <div class="mb-4 lg:w-[35vw] lg:max-w-[500px] lg:mb-0">
+        <h1 class="text-center font-bold text-2xl mb-6 xl:mb-16">About me</h1>
+        <div
+          class="lg:flex lg:justify-center lg:max-w-[1000px] lg:mx-auto space-x-12 lg:items-center"
+        >
+          <div class="mb-4 lg:w-[35vw] lg:max-w-[360px] lg:mb-0">
             <img
               src="./assets/personal/about-img.62b47e7f183d4b4e9feb.webp"
               alt=""
@@ -147,7 +147,7 @@
             />
           </div>
           <div class="lg:w-[40vw] lg:max-w-[640px] lg:flex-col">
-            <p class="text-justify text-gray-500 lg:text-lg">
+            <p class="text-justify text-gray-500">
               Currently based in São Paulo, Brazil, and available to relocate.📍
               <br /><br />
               After a successful career as a Senior Manager in a Technology and
@@ -162,9 +162,13 @@
             </p>
           </div>
         </div>
-        <a href="assets/personal/Renan-Fayad__CV__240223.pdf" target="_blank">
+        <a
+          href="assets/personal/Renan-Fayad__CV__240223.pdf"
+          target="_blank"
+          class="block w-36 h-10 lg:w-40 mx-auto"
+        >
           <button
-            class="bg-[#2196f3] w-40 h-12 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-56 lg:text-lg hover:bg-[#177fd4] lg:mt-20"
+            class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-40 hover:bg-[#177fd4]"
           >
             Check out my CV!
           </button>
@@ -172,10 +176,8 @@
       </section>
       <hr class="my-6" />
       <!-- My Skills Section -->
-      <section class="px-4" id="skills">
-        <h1 class="text-center font-bold text-2xl mb-6 lg:text-3xl lg:mt-12">
-          My Skills
-        </h1>
+      <section class="px-4 max-w-[1200px] mx-auto" id="skills">
+        <h1 class="text-center font-bold text-2xl mb-6 lg:mt-12">My Skills</h1>
         <div class="lg:flex lg:justify-around lg:items-start">
           <!-- Front End -->
           <div class="mt-16 lg:w-[25%]">
@@ -188,7 +190,7 @@
               <h2 class="text-center font-bold text-lg mb-6 mt-2">FRONT END</h2>
             </div>
             <ul
-              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-7 lg:grid-cols-3 xl:grid-cols-4"
+              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-7 lg:grid-cols-3"
             >
               <li>
                 <figure class="w-fit">
@@ -287,7 +289,7 @@
               <h2 class="text-center font-bold text-lg mb-6 mt-2">BACK END</h2>
             </div>
             <ul
-              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-7 lg:grid-cols-3 xl:grid-cols-4"
+              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-7 lg:grid-cols-3"
             >
               <li>
                 <figure class="w-fit">
@@ -388,7 +390,7 @@
               </h2>
             </div>
             <ul
-              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-7 lg:grid-cols-3 xl:grid-cols-4"
+              class="mt-4 grid w-[95vw] grid-cols-3 justify-items-center gap-y-4 sm:w-auto sm:grid-cols-4 md:grid-cols-7 lg:grid-cols-3"
             >
               <li>
                 <figure class="w-fit">
@@ -481,7 +483,7 @@
       <hr class="my-6" />
       <!-- Projects Section -->
       <section class="px-4" id="projects">
-        <h1 class="text-center font-bold text-2xl mb-6 lg:text-3xl lg:mt-12">
+        <h1 class="text-center font-bold text-2xl mb-6 lg:mt-12">
           My Latest Projects
         </h1>
         <div class="lg:flex">
@@ -490,14 +492,12 @@
             class="w-[95%] mx-auto border-gray-400 border-2 border-opacity-60 p-2 shadow-md pb-8 max-w-[600px] lg:mt-8"
           >
             <img src="assets/personal/projects/Webflare.jpg" alt="" />
-            <h2 class="text-center font-bold text-xl mt-6 lg:text-2xl">
-              Webflare
-            </h2>
-            <h3 class="text-center font-bold text-lg mt-4 lg:text-xl">
+            <h2 class="text-center font-bold text-xl mt-6">Webflare</h2>
+            <h3 class="text-center font-bold text-lg mt-4">
               Digital Assets Marketplace
             </h3>
             <br />
-            <p class="text-justify text-gray-500 lg:text-lg mt-[-16px]">
+            <p class="text-justify text-gray-500 mt-[-16px]">
               Webflare was created to be the #1 marketplace for buying and
               selling online businesses, including apps, SaaS platforms, blogs,
               e-commerce sites, and social media profiles, among others.
@@ -509,18 +509,16 @@
               receive by either accepting or declining them.
             </p>
 
-            <h4
-              class="text-center font-bold mb-1 mt-4 lg:text-lg lg:mb-4 lg:mt-6"
-            >
+            <h4 class="text-center font-bold mb-1 mt-4 lg:mb-4 lg:mt-6">
               Demo Login
             </h4>
             <div class="flex justify-between">
               <div class="flex">
-                <h4 class="font-bold lg:text-lg mr-1">E-mail:</h4>
-                <p class="text-gray-500 lg:text-lg">test1@gmail.com</p>
+                <h4 class="font-bold mr-1">E-mail:</h4>
+                <p class="text-gray-500">test1@gmail.com</p>
               </div>
               <button
-                class="relative rounded-md h-7 w-7 bg-[#2196f3] opacity-80 font-bold text-white p-2 active:opacity-60 hover:bg-[#177fd4] lg:h-8 lg:w-8"
+                class="relative rounded-md h-7 w-7 bg-[#2196f3] opacity-80 font-bold text-white p-2 active:opacity-60 hover:bg-[#177fd4] lg:h-7 lg:w-7"
                 id="email-btn"
                 onclick="copyItemToClipboard('test1@gmail.com')"
               >
@@ -533,11 +531,11 @@
             </div>
             <div class="flex justify-between mt-2">
               <div class="flex">
-                <h4 class="font-bold lg:text-lg mr-1">Password:</h4>
-                <p class="text-gray-500 lg:text-lg">QPwo!)29</p>
+                <h4 class="font-bold mr-1">Password:</h4>
+                <p class="text-gray-500">QPwo!)29</p>
               </div>
               <button
-                class="rounded-md h-7 w-7 bg-[#2196f3] opacity-80 font-bold text-white p-2 active:opacity-60 hover:bg-[#177fd4] lg:h-8 lg:w-8"
+                class="rounded-md h-7 w-7 bg-[#2196f3] opacity-80 font-bold text-white p-2 active:opacity-60 hover:bg-[#177fd4] lg:h-7 lg:w-7"
                 id="email-btn"
                 onclick="copyItemToClipboard('QPwo!)29')"
               >
@@ -548,9 +546,13 @@
                 />
               </button>
             </div>
-            <a href="https://webflare.vercel.app/" target="_blank">
+            <a
+              href="https://webflare.vercel.app/"
+              target="_blank"
+              class="w-36 h-10 lg:w-40 block mx-auto"
+            >
               <button
-                class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto shadow-lg block active:opacity-80 mt-6 lg:w-56 lg:text-lg hover:bg-[#177fd4] lg:mt-10"
+                class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-40 hover:bg-[#177fd4]"
               >
                 Check it Out
               </button>
@@ -728,12 +730,12 @@
                   target="_blank"
                 >
                   <button
-                    class="w-[100%] h-14 mx-auto flex justify-start items-center shadow-sm shadow-gray-400 active:shadow-sm mt-8 font-bold text-lg hover:bg-gray-50"
+                    class="w-[100%] h-14 mx-auto flex justify-start items-center shadow-sm shadow-gray-400 active:shadow-sm mt-8 font-bold hover:bg-gray-50"
                   >
                     <img
                       src="./assets/techs/tools/GitHub.svg"
                       alt=""
-                      class="h-10 ml-6 absolute"
+                      class="h-8 ml-6 absolute"
                     />
                     <div class="mx-auto">
                       <h2 class="mx-auto">Front End Project</h2>
@@ -747,12 +749,12 @@
                   target="_blank"
                 >
                   <button
-                    class="w-[100%] h-14 mx-auto flex justify-start items-center shadow-sm shadow-gray-400 active:shadow-sm mt-2 font-bold text-lg hover:bg-gray-50"
+                    class="w-[100%] h-14 mx-auto flex justify-start items-center shadow-sm shadow-gray-400 active:shadow-sm mt-2 font-bold hover:bg-gray-50"
                   >
                     <img
                       src="./assets/techs/tools/GitHub.svg"
                       alt=""
-                      class="h-10 ml-6 absolute"
+                      class="h-8 ml-6 absolute"
                     />
                     <div class="mx-auto">
                       <h2 class="mx-auto">Back End Project</h2>
@@ -767,25 +769,25 @@
       <!-- Contact Me Section -->
       <hr class="my-6" />
       <section id="contact">
-        <h1 class="text-center font-bold text-2xl mb-6">Get in Touch!</h1>
+        <h1 class="text-center font-bold text-xl mb-6">Get in Touch!</h1>
         <div
-          class="lg:flex w-100% lg:justify-center lg:space-x-20 lg:items-center mb-8"
+          class="lg:flex w-100% lg:justify-center lg:space-x-10 lg:items-center mb-8"
         >
           <a
             href="https://api.whatsapp.com/send?phone=5511992861954&text=Hi%21%20I%20was%20checking%20out%20your%20portfolio%20"
             target="_blank"
           >
             <button
-              class="h-28 mx-auto flex justify-start items-center shadow-md shadow-gray-500 active:shadow-md w-[95vw] max-w-[400px] lg:w-[40vw] lg:max-w-none hover:bg-gray-50"
+              class="h-16 mx-auto flex justify-start items-center shadow-sm shadow-gray-500 active:shadow-md w-[95vw] max-w-[320px] lg:w-[40vw] hover:bg-gray-50"
             >
               <img
                 src="assets/techs/whatsapp.png"
                 alt=""
-                class="h-16 ml-6 absolute"
+                class="h-10 ml-6 absolute"
               />
               <div class="mx-auto">
-                <h2 class="font-bold text-2xl">Whatsapp</h2>
-                <h3 class="text-xl text-gray-600">Let's get in touch!</h3>
+                <h2 class="font-bold text-lg">Whatsapp</h2>
+                <h3 class="text-gray-600">Let's get in touch!</h3>
               </div>
             </button>
           </a>
@@ -794,16 +796,16 @@
             target="_blank"
           >
             <button
-              class="h-28 mx-auto flex justify-start items-center shadow-md mt-8 shadow-gray-500 active:shadow-md w-[95vw] max-w-[400px] lg:mt-0 lg:w-[40vw] lg:max-w-none hover:bg-gray-50"
+              class="h-16 mx-auto flex justify-start items-center shadow-sm mt-4 shadow-gray-500 active:shadow-md w-[95vw] max-w-[320px] lg:mt-0 lg:w-[40vw] hover:bg-gray-50"
             >
               <img
                 src="assets/techs/gmail.png"
                 alt=""
-                class="h-16 ml-4 absolute"
+                class="h-10 ml-4 absolute"
               />
               <div class="mx-auto">
-                <h2 class="font-bold text-2xl">Email</h2>
-                <h3 class="text-xl text-gray-600">Contact me!</h3>
+                <h2 class="font-bold text-lg">Email</h2>
+                <h3 class="text-gray-600">Contact me!</h3>
               </div>
             </button>
           </a>
@@ -816,5 +818,6 @@
       <p class="lg:mr-12">©2024 RR Fayad Software Development</p>
     </footer>
   </body>
+  <script src="https://cdn.tailwindcss.com"></script>
   <script src="/script.js"></script>
 </html>
