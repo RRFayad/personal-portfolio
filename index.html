@@ -51,7 +51,7 @@
     <!-- Nav Bar -->
     <header class="bg-[#111827]">
       <nav
-        class="flex justify-between items-center h-16 px-8 relative mb-4 lg:px-0 lg:mx-auto lg:max-w-[1000px]"
+        class="flex justify-between items-center h-16 px-8 relative mb-4 lg:px-0 lg:mx-auto lg:max-w-[760px] xl:max-w-[1000px]"
       >
         <!-- Hamburger Menu -->
         <div
@@ -94,59 +94,64 @@
     <main>
       <!--  INTRO SECTION -->
       <section
-        class="flex flex-col px-8 lg:px-0 lg:flex-row-reverse lg:justify-between lg:max-w-[1000px] lg:mx-auto lg:items-center lg:mt-12"
+        class="px-8 lg:px-0 lg:max-w-[760px] xl:max-w-[1000px] lg:mx-auto lg:mt-12"
       >
         <div
-          class="w-36 h-36 m-auto lg:m-0 overflow-hidden rounded-full relative my-4 lg:h-64 lg:w-64 bg-[#BFBBB7] border border-gray-500"
+          class="flex flex-col lg:flex-row-reverse lg:justify-between lg:items-center"
         >
-          <img
-            src="assets/personal/Profile-Pic-No-BG.png"
-            alt=""
-            class="m-auto object-cover object-top"
-          />
-        </div>
-        <div class="p-2 lg:w-[640px] lg:flex-col">
-          <h1 class="text-center font-bold text-2xl">
-            👋 Hi, I'm Renan! <br />
-          </h1>
-          <br />
-          <p class="text-justify text-gray-500 lg:mt-4">
-            I'm a passionate Full Stack Web Developer with a strong
-            understanding of both front-end and back-end development, including
-            mobile. I'm excited to apply my skills in a professional setting.
-            <br /><br />
+          <div
+            class="w-36 h-36 m-auto lg:m-0 overflow-hidden rounded-full relative my-4 lg:h-48 lg:w-48 xl:h-64 xl:w-64 bg-[#BFBBB7] border border-gray-500"
+          >
+            <img
+              src="assets/personal/Profile-Pic-No-BG.png"
+              alt=""
+              class="m-auto object-cover object-top"
+            />
+          </div>
+          <div class="p-2 lg:max-w-[480px] xl:max-w-[640px] lg:flex-col">
+            <h1 class="text-center font-bold text-2xl">
+              👋 Hi, I'm Renan! <br />
+            </h1>
+            <br />
+            <p class="text-justify text-gray-500 lg:mt-4">
+              I'm a passionate Full Stack Web Developer with a strong
+              understanding of both front-end and back-end development,
+              including mobile. I'm excited to apply my skills in a professional
+              setting.
+              <br /><br />
 
-            As a senior professional, quick learner, and team player, I'm
-            confident I can be a valuable asset to your web development team.
-            <br /><br />
+              As a senior professional, quick learner, and team player, I'm
+              confident I can be a valuable asset to your web development team.
+              <br /><br />
 
-            Click the button below and let me know how I can help with your
-            project!
-          </p>
-          <a href="#contact" class="w-36 h-10 lg:w-40 block mx-auto">
-            <button
-              class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-40 hover:bg-[#177fd4]"
-            >
-              Contact Me
-            </button>
-          </a>
+              Click the button below and let me know how I can help with your
+              project!
+            </p>
+          </div>
         </div>
+        <a href="#contact" class="w-36 h-10 lg:w-48 block mx-auto lg:mt-4">
+          <button
+            class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-48 hover:bg-[#177fd4]"
+          >
+            Contact Me
+          </button>
+        </a>
       </section>
       <hr class="my-6" />
       <!-- ABOUT ME SECTION -->
-      <section class="px-8 lg:px-20 lg:mt-12" id="about-me">
-        <h1 class="text-center font-bold text-2xl mb-6 xl:mb-16">About me</h1>
+      <section class="px-8 lg:px-20 lg:mt-6" id="about-me">
+        <h1 class="text-center font-bold text-2xl xl:mb-12">About me</h1>
         <div
-          class="lg:flex lg:justify-center lg:max-w-[1000px] lg:mx-auto lg:space-x-12 lg:items-center"
+          class="lg:flex lg:justify-center lg:max-w-[760px] xl:max-w-[1000px] lg:mx-auto lg:space-x-12 lg:items-center mt-6"
         >
-          <div class="mb-4 lg:w-[35vw] lg:max-w-[360px] lg:mb-0">
+          <div class="mb-4 lg:w-[360px] lg:mb-0">
             <img
               src="./assets/personal/about-img.62b47e7f183d4b4e9feb.webp"
               alt=""
               class="rounded lg:rounded-xl"
             />
           </div>
-          <div class="lg:w-[40vw] lg:max-w-[640px] lg:flex-col">
+          <div class="lg:w-[480px] xl:w-[640px] lg:flex-col">
             <p class="text-justify text-gray-500">
               Currently based in São Paulo, Brazil, and available to relocate.📍
               <br /><br />
@@ -165,10 +170,10 @@
         <a
           href="assets/personal/Renan-Fayad__CV__240223.pdf"
           target="_blank"
-          class="block w-36 h-10 lg:w-40 mx-auto"
+          class="block w-36 h-10 lg:w-48 mx-auto"
         >
           <button
-            class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-40 hover:bg-[#177fd4]"
+            class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-48 lg:mt-12 hover:bg-[#177fd4]"
           >
             Check out my CV!
           </button>
@@ -178,9 +183,9 @@
       <!-- My Skills Section -->
       <section class="px-8 max-w-[1000px] mx-auto" id="skills">
         <h1 class="text-center font-bold text-2xl mb-6 lg:mt-12">My Skills</h1>
-        <div class="lg:flex lg:justify-around lg:items-start">
+        <div class="lg:flex lg:justify-around lg:items-start mt-8">
           <!-- Front End -->
-          <div class="mt-12 lg:w-[25%]">
+          <div class="mt-8 lg:w-[25%]">
             <div>
               <img
                 src="assets/techs/frontend icon.png"
@@ -279,7 +284,7 @@
             </ul>
           </div>
           <!-- Back End -->
-          <div class="mt-12 lg:w-[25%]">
+          <div class="mt-8 lg:w-[25%]">
             <div>
               <img
                 src="assets/techs/backend icon.png"
@@ -378,7 +383,7 @@
             </ul>
           </div>
           <!-- Other Tools -->
-          <div class="mt-12 lg:w-[25%]">
+          <div class="mt-8 lg:w-[25%]">
             <div>
               <img
                 src="assets/techs/tools icon.png"
