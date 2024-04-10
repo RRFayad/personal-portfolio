@@ -100,20 +100,20 @@
           class="flex flex-col lg:flex-row-reverse lg:justify-between lg:items-center"
         >
           <div
-            class="w-36 h-36 m-auto lg:m-0 overflow-hidden rounded-full relative my-4 lg:h-48 lg:w-48 xl:h-64 xl:w-64 bg-[#BFBBB7] border border-gray-500"
+            class="m-auto lg:m-0 overflow-hidden rounded-full relative my-4 bg-[#BFBBB7] border border-gray-500 lg:mt-10 lg:mb-[72px]"
           >
             <img
               src="assets/personal/Profile-Pic-No-BG.png"
               alt=""
-              class="m-auto object-cover object-top"
+              class="m-auto object-cover object-top w-36 h-36 lg:h-48 lg:w-48 xl:h-52 xl:w-52"
             />
           </div>
-          <div class="p-2 lg:max-w-[480px] xl:max-w-[640px] lg:flex-col">
+          <div class="lg:max-w-[480px] xl:max-w-[640px] lg:flex-col">
             <h1 class="text-center font-bold text-2xl">
               👋 Hi, I'm Renan! <br />
             </h1>
             <br />
-            <p class="text-justify text-gray-500 lg:mt-4">
+            <p class="text-justify text-gray-500">
               I'm a passionate Full Stack Web Developer with a strong
               understanding of both front-end and back-end development,
               including mobile. I'm excited to apply my skills in a professional
@@ -127,32 +127,39 @@
               Click the button below and let me know how I can help with your
               project!
             </p>
+            <a href="#contact" class="w-36 h-10 lg:w-48 block mx-auto lg:mt-4">
+              <button
+                class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-48 hover:bg-[#177fd4]"
+              >
+                Contact Me
+              </button>
+            </a>
           </div>
         </div>
-        <a href="#contact" class="w-36 h-10 lg:w-48 block mx-auto lg:mt-4">
-          <button
-            class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-48 hover:bg-[#177fd4]"
-          >
-            Contact Me
-          </button>
-        </a>
       </section>
       <hr class="my-6" />
       <!-- ABOUT ME SECTION -->
       <section class="px-8 lg:px-20 lg:mt-6" id="about-me">
-        <h1 class="text-center font-bold text-2xl xl:mb-12">About me</h1>
+        <h1 class="text-center font-bold text-2xl lg:hidden xl:mb-12">
+          <!-- Mobile Only H1-->
+          About me
+        </h1>
         <div
-          class="lg:flex lg:justify-center lg:max-w-[760px] xl:max-w-[1000px] lg:mx-auto lg:space-x-12 lg:items-center mt-6"
+          class="lg:flex lg:justify-between lg:max-w-[760px] xl:max-w-[1000px] lg:mx-auto lg:space-x-12 lg:items-center mt-6"
         >
-          <div class="mb-4 lg:w-[360px] lg:mb-0">
+          <div class="mb-4 lg:mt-16 lg:mb-[72px]">
             <img
               src="./assets/personal/about-img.62b47e7f183d4b4e9feb.webp"
               alt=""
-              class="rounded lg:rounded-xl"
+              class="rounded lg:rounded-xl m-auto object-cover object-right-top lg:h-48 lg:w-48 xl:h-52 xl:w-64"
             />
           </div>
           <div class="lg:w-[480px] xl:w-[640px] lg:flex-col">
-            <p class="text-justify text-gray-500">
+            <h1 class="hidden text-center font-bold text-2xl lg:block">
+              <!-- Desktop Only H1 -->
+              About me
+            </h1>
+            <p class="text-justify text-gray-500 mt-8">
               Currently based in São Paulo, Brazil, and available to relocate.📍
               <br /><br />
               After a successful career as a Senior Manager in a Technology and
@@ -165,19 +172,19 @@
               I create end-to-end software solutions, including web and mobile
               applications.
             </p>
+            <a
+              href="assets/personal/Renan-Fayad__CV__240223.pdf"
+              target="_blank"
+              class="block w-36 h-10 lg:w-48 mx-auto"
+            >
+              <button
+                class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-48 lg:mt-12 hover:bg-[#177fd4]"
+              >
+                Check out my CV!
+              </button>
+            </a>
           </div>
         </div>
-        <a
-          href="assets/personal/Renan-Fayad__CV__240223.pdf"
-          target="_blank"
-          class="block w-36 h-10 lg:w-48 mx-auto"
-        >
-          <button
-            class="bg-[#2196f3] w-36 h-10 text-white font-bold rounded-lg mx-auto mt-8 shadow-lg block active:opacity-80 lg:w-48 lg:mt-12 hover:bg-[#177fd4]"
-          >
-            Check out my CV!
-          </button>
-        </a>
       </section>
       <hr class="my-6" />
       <!-- My Skills Section -->
